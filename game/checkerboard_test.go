@@ -1,4 +1,4 @@
-package checkerboard
+package game
 
 import "testing"
 

@@ -1,4 +1,4 @@
-package checkerboard
+package game
 
 import "fmt"
 
@@ -38,4 +38,16 @@ func (b *CheckerBoard) Print() {
 		}
 		fmt.Print("\n")
 	}
+}
+
+// Full checks if the checkerboard is full
+func (b *CheckerBoard) Full() bool {
+	for _, row := range b.board {
+		for _, point := range row {
+			if point == 0 {
+				return false
+			}
+		}
+	}
+	return true
 }
