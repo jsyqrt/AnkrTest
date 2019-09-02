@@ -1,6 +1,6 @@
 # AnkrTest
 
-Please the tests to check my answer:)
+Please run the tests to check my answer:)
 
 # Quick Start
 
